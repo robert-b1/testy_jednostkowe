@@ -1,4 +1,4 @@
-package myproject;
+package testy;
 
 import org.hamcrest.junit.ExpectedException;
 import org.junit.Before;
@@ -12,7 +12,7 @@ import static org.junit.Assert.assertTrue;
 
 @RunWith(JUnit4.class)
 public class CalculatorTest {
-
+    //niestety coś jest tu nie tak, trzeba poprawić żeby działało
     private Calculator calc;
 
     @Before

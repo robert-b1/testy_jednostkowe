@@ -1,4 +1,4 @@
-package myproject;
+package testy;
 
 public class CalculatorImpl implements Calculator {
     String display;

@@ -1,4 +1,4 @@
-package myproject;
+package testy;
 
 import junitparams.FileParameters;
 import junitparams.JUnitParamsRunner;
@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnitParamsRunner.class)
 public class CalculatorParametrizedJUnitParamsCSVTest {
-
+    //niestety coś jest tu nie tak, trzeba poprawić żeby działało
     @Test
     @FileParameters("src/test/resources/CalculatorParameterCSVFileAddTest.csv")
     public void testAdd(int numberA, int numberB, String expected) {

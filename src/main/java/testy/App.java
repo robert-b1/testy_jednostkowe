@@ -1,4 +1,4 @@
-package myproject;
+package testy;
 
 public class App {
     public static void main(String[] args) {

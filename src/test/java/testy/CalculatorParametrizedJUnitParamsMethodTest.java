@@ -1,4 +1,4 @@
-package myproject;
+package testy;
 
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnitParamsRunner.class)
 public class CalculatorParametrizedJUnitParamsMethodTest {
-
+    //niestety coś jest tu nie tak, trzeba poprawić żeby działało
     private Calculator calc;
 
     @Before

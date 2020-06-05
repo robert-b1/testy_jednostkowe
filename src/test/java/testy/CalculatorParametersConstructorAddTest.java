@@ -1,4 +1,4 @@
-package myproject;
+package testy;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,6 +12,7 @@ import static org.junit.Assert.assertEquals;
 @RunWith(value = Parameterized.class)
 public class
 CalculatorParametersConstructorAddTest {
+    //niestety coś jest tu nie tak, trzeba poprawić żeby działało
     int numberA;
     int numberB;
     String expectedResult;

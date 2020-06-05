@@ -1,6 +1,6 @@
 package mocowanie;
 
-import myproject.Calculator;
+import testy.Calculator;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;

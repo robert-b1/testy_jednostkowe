@@ -1,4 +1,4 @@
-package myproject;
+package testy;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
@@ -9,11 +9,9 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 import java.util.Collection;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @RunWith(JUnit4.class)
 public class CalculatorParametersFieldDivTest {
-
+    //niestety coś jest tu nie tak, trzeba poprawić żeby działało
     @Parameterized.Parameter(value = 1)
     public int numberA;
 

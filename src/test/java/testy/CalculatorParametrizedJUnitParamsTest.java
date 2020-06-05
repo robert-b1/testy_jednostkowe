@@ -1,4 +1,4 @@
-package myproject;
+package testy;
 
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnitParamsRunner.class)
 public class CalculatorParametrizedJUnitParamsTest {
-
+    //niestety coś jest tu nie tak, trzeba poprawić żeby działało
     @Test
     @Parameters({"1, 1, 2", "2, 2, 4", "1, 9, 10", "2, 3, 5", "2, 9, 11"})
     public void testAdd(int numberA, int numberB, String expected) {
